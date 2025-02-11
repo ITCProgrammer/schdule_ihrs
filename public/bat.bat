@@ -1,3 +1,3 @@
-cd C:\xampp\htdocs\schedule_ihrs
+cd C:\xampp\htdocs\schdule_ihrs
 C:
 php artisan schedule:run
