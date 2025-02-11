@@ -16,8 +16,8 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('cron:ihrs')
-        // ->dailyAt('00:01');
-        ->everyMinute(); // kalau mau di test pake everminutes
+        ->dailyAt('00:01');
+        // ->everyMinute(); // kalau mau di test pake everminutes
     }
 
     /**
